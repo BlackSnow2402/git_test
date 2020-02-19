@@ -107,6 +107,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessObjects\Customer.cs" />
+    <Compile Include="BusinessObjects\Order.cs" />
+    <Compile Include="BusinessObjects\Product.cs" />
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="Module.cs">
       <SubType>Component</SubType>
@@ -143,4 +146,3 @@
   </Target>
   -->
 </Project>
-
